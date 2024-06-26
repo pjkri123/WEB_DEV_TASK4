@@ -1,0 +1,100 @@
+body
+{
+    margin: 0;
+    background-image: url("../images/img.jpg");
+    color: white;
+}
+#job
+{
+    margin: 40px;
+}
+#job>h1
+{
+    text-align: center;
+    font-family: old english text MT,sans-serif;
+    text-shadow: 0 0 4px red;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+#info>h1,#education-details>h1,#work-experience>h1,#other-details>h1
+{
+    font-family: old english text MT,sans-serif;
+    font-size: 25px;
+    border: 2px solid white;
+    margin: -20px 60px;
+    padding: 12px 15px;
+    border-radius: 0 20px;
+    background: url("../images/img2.jpg");
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    display: inline;
+}
+input[type="submit"],input[type="reset"]
+{
+    font-family: old english text MT,sans-serif;
+    font-size: 20px;
+    background: url("../images/img2.jpg");
+    border: 2px solid white;
+    padding: 12px 25px;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 10px black;
+    color: white;
+    width: 150px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover
+{
+    box-shadow: 0 0 10px white;
+}
+table
+{
+    border: 2px solid white;
+    width: 95%;
+    padding: 35px 30px;
+    margin: 50px auto;
+    border-radius: 0 20px;
+    box-shadow: 0 0 10px black;
+    font-family: comic sans MS,sans-serif;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+tr
+{
+    text-align: left;
+}
+td
+{
+    padding: 5px 0;
+}
+input,textarea
+{
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+input[type="text"],input[type="number"],input[type="month"],input[type="date"]
+{
+    height: 35px;
+}
+textarea[type="text"]
+{
+    height: 70px;
+}
+#work-experience textarea
+{
+    height: 80px;
+}
+input:focus,textarea:focus,select:focus
+{
+    box-shadow: 0 0 10px rgba(165, 0, 0, 0.879);
+    background-color: rgba(249, 170, 170, 0.522);
+}
+select
+{
+    font-size: 18px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
